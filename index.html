@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vite App</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+            rel="stylesheet" />
+    </head>
+    <body>
+        <div class="bg-white grid grid-cols-11 h-screen">
+            <!-- menu primera parte -->
+
+            <aside
+                class="bg-white col-span-1 border-r h-full w-full flex items-center flex-col justify-between py-6">
+                <!-- perfil -->
+                <img
+                    src="./src/assets/img/perfil.jpg"
+                    alt=""
+                    class="w-12 h-12 rounded-full border-2 border-blue-800 object-cover" />
+
+                <!-- iconos -->
+                <div
+                    class="text-3xl flex flex-col gap-9 text-gray-400/60 w-full items-center">
+                    <i
+                        class="ri-layout-grid-fill text-black w-full border-r-2 border-blue-800 text-center"></i>
+                    <i class="ri-shirt-fill"></i>
+                    <i class="ri-archive-fill"></i>
+                    <i class="ri-truck-fill"></i>
+                    <i class="ri-user-3-fill"></i>
+                </div>
+
+                <!-- interrogacion -->
+
+                <div class="text-3xl">
+                    <i class="ri-error-warning-fill"></i>
+                </div>
+            </aside>
+
+            <!-- segunda parte -->
+
+            <main class="col-span-10">
+                <header
+                    class="mx-16 h-28 border-b flex items-center justify-between">
+                    <h1 class="text-lg font-normal">Good Morning DeusloVult</h1>
+
+                    <div class="flex items-center gap-16">
+                        <!-- iconos -->
+                        <div class="flex gap-6 text-2xl text-gray-500">
+                            <i
+                                class="ri-search-line py-2 px-3 rounded-2xl border cursor-pointer"></i>
+                            <i
+                                class="ri-add-fill py-2 px-3 rounded-2xl border bg-blue-50 text-blue-800 cursor-pointer"></i>
+                        </div>
+
+                        <button
+                            class="bg-blue-800 text-white text-sm px-10 py-3 rounded-xl">
+                            Send Product
+                        </button>
+
+                        <!-- icono -->
+                        <i
+                            class="ri-notification-2-line py-2 px-3 rounded-2xl border cursor-pointer text-2xl text-gray-500"></i>
+                    </div>
+                </header>
+
+                <!-- Order de compra -->
+
+                <div class="h-28 mx-16 grid grid-cols-3">
+                    <!-- Parte 1 -->
+                    <div
+                        class="col-span-2 border-b h-full flex justify-between items-center">
+                        <div class="flex items-center gap-3">
+                            <img src="./src/assets/img/Generic.png" alt="" />
+                            <div class="flex flex-col gap-1">
+                                <span class="text-2xl text-black"
+                                    >Orden #13024</span
+                                >
+                                <span class="text-sm text-gray-500"
+                                    >12 products</span
+                                >
+                            </div>
+                        </div>
+
+                        <div class="flex gap-8 items-center">
+                            <span
+                                class="text-xs text-yellow-500 bg-yellow-50 px-3 py-1 rounded-2xl"
+                                >Payment Due</span
+                            >
+
+                            <i
+                                class="ri-arrow-right-s-line py-2 px-3 rounded-2xl bg-blue-50 border cursor-pointer text-xl"></i>
+                        </div>
+                    </div>
+
+                    <!-- Parte 2 -->
+
+                    <div class="col-span-1 flex items-center pl-28">
+                        <img
+                            src="./src/assets/img/Rectangle.png"
+                            alt=""
+                            class="p-3 rounded-2xl bg-blue-50" />
+                    </div>
+                </div>
+
+                <!-- Contenido ventas dividido en 3 partes -->
+
+                <div class="w-full h-3/4 grid grid-cols-7">
+                    <!-- producto -->
+
+                    <div class="col-span-2 p-14 flex flex-col justify-between">
+                        <!-- titulo producto dedinido  -->
+                        <div
+                            class="flex h-20 items-center justify-between w-full">
+                            <div class="flex flex-col justify-center gap-2">
+                                <span class="text-3xl text-black">Design</span>
+                                <span class="text-sm text-gray-500 font-light"
+                                    >9 products in Design</span
+                                >
+                            </div>
+
+                            <div class=" ">
+                                <i
+                                    class="ri-arrow-right-s-line py-3 px-3 rounded-2xl bg-blue-50 border cursor-pointer text-xl"></i>
+                            </div>
+                        </div>
+
+                        <img
+                            src="./src/assets/img/High Heels Women's Shoes Pink.H03.png"
+                            alt=""
+                            class="bg-gray-100/60 rounded-2xl" />
+
+                        <div class="flex justify-between items-center">
+                            <div class="flex flex-col">
+                                <span class="text-black font-medium"
+                                    >Product name</span
+                                >
+                                <span class="text-gray-700 font-light text-sm"
+                                    >Color:red</span
+                                >
+                            </div>
+
+                            <span
+                                class="text-blue-500 text-sm bg-blue-50 px-3 rounded-2xl py-2"
+                                >In Design</span
+                            >
+                        </div>
+                    </div>
+
+                    <!-- compras -->
+
+                    <div
+                        class=" col-span-3 p-14 flex h-full gap-16 flex-col justify-between">
+                        <!-- titulo  compras -->
+                        <!-- titulo producto dedinido  -->
+                        <div
+                            class="flex h-20 items-center justify-between w-full">
+                            <div
+                                class="flex flex-col justify-center gap-2 ">
+                                <span class="text-3xl text-black"
+                                    >Shipping</span
+                                >
+                                <span class="text-sm text-gray-500 font-light"
+                                    >25 open shippings</span
+                                >
+                            </div>
+
+                            <div>
+                                <i
+                                    class="ri-arrow-right-s-line py-3 px-3 rounded-2xl bg-blue-50 border cursor-pointer text-xl"></i>
+                            </div>
+                        </div>
+
+                        <!-- Listado de compras -->
+
+                        <div
+                            class="h-full w-full flex flex-col justify-between">
+                            <!-- producto1 -->
+
+                            <div class="flex gap-4 items-start">
+                                <img
+                                    src="./src/assets/img/1.png"
+                                    alt=""
+                                    class="p-2 bg-gray-100/60 rounded-2xl" />
+                                <div
+                                    class="flex gap-6 items-center w-full border-b py-2 justify-between">
+                                    <div class="flex flex-col">
+                                        <span class="font-medium"
+                                            >Floyd Miles</span
+                                        >
+                                        <span class="text-gray-500 text-sm"
+                                            >4517 Washington Ave. MK 3949</span
+                                        >
+                                    </div>
+
+                                    <span class="ml-4 text-gray-700"
+                                        >13/09/2022</span
+                                    >
+                                </div>
+                            </div>
+
+                            <!-- producto2 -->
+
+                            <div class="flex gap-4 items-start">
+                                <img
+                                    src="./src/assets/img/2.png"
+                                    alt=""
+                                    class="p-2 bg-gray-100/60 rounded-2xl" />
+                                <div
+                                    class="flex gap-6 items-center w-full border-b py-2 justify-between">
+                                    <div class="flex flex-col">
+                                        <span class="font-medium"
+                                            >Arlene McCoy</span
+                                        >
+                                        <span class="text-gray-500 text-sm"
+                                            >2972 Westheimer Rd. SI 85486 </span
+                                        >
+                                    </div>
+
+                                    <span class="ml-4 text-gray-700"
+                                        >13/09/2022</span
+                                    >
+                                </div>
+                            </div>
+
+                            <!-- producto3 -->
+
+                            <div class="flex gap-4 items-start">
+                                <img
+                                    src="./src/assets/img/3.png"
+                                    alt=""
+                                    class="p-2 bg-gray-100/60 rounded-2xl" />
+                                <div
+                                    class="flex gap-6 items-center w-full border-b py-2 justify-between">
+                                    <div class="flex flex-col">
+                                        <span class="font-medium"
+                                            >Dianne Russell</span
+                                        >
+                                        <span class="text-gray-500 text-sm"
+                                            >8502 Preston Rd. IM 98380</span
+                                        >
+                                    </div>
+
+                                    <span class="ml-4 text-gray-700"
+                                        >13/09/2022</span
+                                    >
+                                </div>
+                            </div>
+
+                            <!-- producto4 -->
+
+                            <div class="flex gap-4 items-start">
+                                <img
+                                    src="./src/assets/img/4.png"
+                                    alt=""
+                                    class="p-2 bg-gray-100/60 rounded-2xl" />
+                                <div
+                                    class="flex gap-6 items-center w-full border-b py-2 justify-between">
+                                    <div class="flex flex-col">
+                                        <span class="font-medium"
+                                            >Kristin Watson</span
+                                        >
+                                        <span class="text-gray-500 text-sm"
+                                            >2464 Royal Ln. Mesa, NJ 45463</span
+                                        >
+                                    </div>
+
+                                    <span class="ml-4 text-gray-700"
+                                        >13/09/2022</span
+                                    >
+                                </div>
+                            </div>
+
+                            <!-- producto5 -->
+
+                            <div class="flex gap-4 items-start">
+                                <img
+                                    src="./src/assets/img/5.png"
+                                    alt=""
+                                    class="p-2 bg-gray-100/60 rounded-2xl" />
+                                <div
+                                    class="flex gap-6 items-center w-full border-b py-2 justify-between">
+                                    <div class="flex flex-col">
+                                        <span class="font-medium"
+                                            >Theresa Webb</span
+                                        >
+                                        <span class="text-gray-500 text-sm"
+                                            >2715 Ash Dr. San Jose, SD 83475</span
+                                        >
+                                    </div>
+
+                                    <span class="ml-4 text-gray-700"
+                                        >13/09/2022</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta -->
+                    <div class="col-span-2  flex flex-col items-start justify-between p-14">
+                      
+                      <div class="flex flex-col gap-12 items-start ">
+                        <div>
+                          <h2 class="text-3xl text-gray-600">Team: HR & Culture</h2>
+                          <span class="text-sm text-gray-500">Deus entertainment</span>
+                        </div>
+                        
+                        <img src="./src/assets/img/Group.png" alt="" class="object-contain h-12">
+                        
+                      </div>
+                      
+                      
+                      <img src="./src/assets/img/Card 3.png" alt="" class="shadow-xl mb-20">
+                      
+                      
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <script type="module" src="/src/main.js"></script>
+    </body>
+</html>
